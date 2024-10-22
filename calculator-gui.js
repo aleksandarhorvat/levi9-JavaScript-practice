@@ -23,5 +23,5 @@ function calculate() {
             break;
     }
 
-    document.getElementById("result").innerText = "The result is: " + (result !== undefined ? result : "");
+    document.getElementById("result").innerText = "The result is: " + (!isNaN(result) ? result : "");
 }
