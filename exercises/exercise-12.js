@@ -1,0 +1,1 @@
+document.getElementById("urlDisplay").innerHTML = window.location.href;
